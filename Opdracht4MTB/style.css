@@ -1,0 +1,54 @@
+body {
+  background-color: #a9a9a9;
+  font: normal 16px Roboto;
+}
+header {
+  font: normal 32px Roboto;
+  color: #252525;
+  text-align: center;
+}
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px black dotted;
+  padding: 10px;
+}
+.nav {
+  font: bold 10px Roboto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #726704;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 400px;
+}
