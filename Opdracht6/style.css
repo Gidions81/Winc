@@ -1,0 +1,83 @@
+body {
+  background-color: #a9a9a9;
+  font: normal 16px Roboto;
+}
+
+header {
+  font: normal 32px Roboto;
+  color: #252525;
+  text-align: center;
+  border: 5px #d46d00 solid;
+  margin: 10px auto;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  /*same as above*/
+  padding: 5px 8px;
+  width: 50%;
+}
+
+main {
+  border: 5px #d46d00 solid;
+  margin: auto;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  /*same as above*/
+  padding: 5px 8px;
+  width: 50%;
+}
+
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px #d46d00 solid;
+  padding: 10px;
+}
+.nav {
+  font: bold 10px Roboto;
+}
+
+.ulnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d46d00;
+  overflow: hidden;
+}
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: grey;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 50%;
+}
+
+.footer {
+  margin-top: 400px;
+}
