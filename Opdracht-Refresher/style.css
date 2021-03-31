@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  border: black solid 1px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.inside {
+  border-bottom: 1px;
+  border: solid black;
+}
+
+.approve {
+  border: solid green;
+  border-right: 5px;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 4px;
+}
+
+.decline {
+  border: solid red;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 4px;
+}
